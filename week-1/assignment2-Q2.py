@@ -8,7 +8,7 @@
 def attendance_check(total_class, class_attend):
     attendance_percent = (class_attend / total_class) * 100
     print(attendance_percent)
-    if attendance_percent > 75:
+    if attendance_percent >= 75:
         print("allowed")
     else:
         print("not allowed")
