@@ -3,8 +3,10 @@
 ###
 
 num = 567811
+
+count = 0
 n = num
 while n > 0:
-    ld = n % 10
-    print(n)
+    count += 1
     n = n // 10
+print(count)
