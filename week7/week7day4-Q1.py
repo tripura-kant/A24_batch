@@ -2,7 +2,7 @@
 # Extraction of digits
 ###
 
-num = 567819
+num = 567811
 n = num
 while n > 0:
     ld = n % 10
