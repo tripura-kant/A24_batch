@@ -1,12 +1,8 @@
-# Count Digits | Practice | GeeksforGeeks
-# Extraction of digits
-###
+def is_subset(A, B):
+    return A <= B
 
-num = 567811
 
-count = 0
-n = num
-while n > 0:
-    count += 1
-    n = n // 10
-print(count)
+# Example usage
+A = {1, 4, 3}
+B = {1, 4, 3, 2}
+print(is_subset(A, B))  # Output: True
