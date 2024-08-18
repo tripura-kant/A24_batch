@@ -1,8 +1,9 @@
-def is_subset(A, B):
-    return A <= B
+def Index(A, X):
+    for i in range(len(A)):
+        if A[i] == X:
+            print(i)
 
 
-# Example usage
-A = {2, 7, 3}
-B = {4, 4, 3, 2}
-print(is_subset(A, B))  # Output: True
+A = (1, 2, 3, 4, 5)
+X = 3
+Index(A, X)
