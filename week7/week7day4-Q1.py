@@ -15,11 +15,11 @@ class Solution:
             elif num > second_largest and num < largest:
                 second_largest = num
 
-        # If second_largest is still -inf, check if we have duplicates of largest
+        # Handle case where the largest number is the only number or all numbers are the same
         if second_largest == float('-inf'):
             if A.count(largest) > 1:
-                return largest + largest
-            return None
+                return largest + largest  # Return twice the largest number
+            return None  # Not enough distinct values
 
         return largest + second_largest
 
@@ -28,7 +28,7 @@ class Solution:
 sol = Solution()
 
 A = [10, 5, 20, 20, 15]
-print(sol.solve(A))  # Output: 35 (20 + 15)
+print(sol.solve(A))  # Output: 40 (20 + 20)
 
 A = [1, 1, 1]
 print(sol.solve(A))  # Output: 2 (1 + 1)
