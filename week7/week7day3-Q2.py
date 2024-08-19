@@ -12,5 +12,5 @@ def check_Arm(num):
     return result == num
 
 
-num = 347
+num = 153
 print(check_Arm(num))
