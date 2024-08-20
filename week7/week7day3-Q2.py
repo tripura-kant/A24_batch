@@ -1,4 +1,4 @@
-# Armstrong Nuumber
+# Armstrong Nuumber 11
 
 def check_Arm(num):
     n = num
