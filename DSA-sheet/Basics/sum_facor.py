@@ -20,4 +20,4 @@ class Solution:
 
 # Example usage
 sol = Solution()
-print(sol.sumOfDivisors(4))  # Output: 28 (1 + (1+2) + (1+2+4) + (1+2+4))
+print(sol.sumOfDivisors(4))  # Output: 8 (1 + (1+2) + (1+2+4) + (1+2+4))
