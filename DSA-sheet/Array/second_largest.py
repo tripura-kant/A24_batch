@@ -1,30 +1,24 @@
-#
-
-arr = [5, -10, 13, 67, 89, -100, 55]
-
-
-def find_second_max(arr):
+def getSecondOrderElements(n: int, a: [int]) -> [int]:
     maxi = float('-inf')
-    mini = float('inf')
-    n = len(arr)
     sec_max = float('-inf')
+    mini = float('inf')
     sec_mini = float('inf')
-    for i in range(0, n):
-        if arr[i] > maxi:
+
+    for i in range(n):
+        # Update maximum and second maximum
+        if a[i] > maxi:
             sec_max = maxi
-            maxi = arr[i]
+            maxi = a[i]
+        elif a[i] > sec_max and a[i] != maxi:
+            sec_max = a[i]
 
-        elif arr[i] > sec_max and arr[i] != maxi:
-            maxi = arr[i]
-
-        elif arr[i] < mini:
+        # Update minimum and second minimum
+        if a[i] < mini:
             sec_mini = mini
-            mini = arr[i]
+            mini = a[i]
+        elif a[i] < sec_mini and a[i] != mini:
+            sec_mini = a[i]
 
-        elif arr[i] < sec_mini and arr[i] != mini:
-            sec_mini = arr[i]
-
-    return maxi, mini, sec_mini, sec_max
-
-
-print(find_second_max(arr))
+    # Return None for sec_max or sec_mini if they do not exist
+    return (sec_max if sec_max != float('-inf') else None,
+            sec_mini if sec_mini != float('inf') else None)
