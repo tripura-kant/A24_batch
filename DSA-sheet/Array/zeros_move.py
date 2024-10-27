@@ -1,4 +1,4 @@
-nums = [0, 1, 0, 3, 12]
+nums = [0, 1, 0, 3, 12, 0]
 non_zero_list = []
 n = len(nums)
 for i in range(0, n):
