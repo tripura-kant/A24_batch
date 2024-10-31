@@ -5,7 +5,7 @@ for i in range(0, n):
     if nums[i] != 0:
         non_zero_list.append(nums[i])
 
-print(non_zero_list)
+# print(non_zero_list)
 n_z_l = len(non_zero_list)
 
 for i in range(0, n_z_l):
