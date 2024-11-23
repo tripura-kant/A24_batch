@@ -11,6 +11,7 @@ while j < len(arr):
         arr[i], arr[j] = arr[j], arr[i]
     j += 1
 print(i + 1)
+
 # n = len(arr)
 # dict = {}
 # for i in range(0, n):
