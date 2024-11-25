@@ -7,7 +7,7 @@ def is_prime_number(num: int) -> bool:
     return True
 
 
-my_list = [4, 8, 6, 19, 3, 12, 1, 7, 6, 2]
+my_list = [4, 8, 6, 19, 3, 12, 1, 7, 6, 2, 6]
 max_prime_number = 0
 for num in my_list:
     if is_prime_number(num):
