@@ -3,7 +3,6 @@ arr = [4, 3, 1, 0, 2, 5, 6, 7, 9]
 #     if i not in arr:
 #         print(i)
 
-
 n = len(arr)
 #
 # dict = {}
@@ -16,5 +15,5 @@ n = len(arr)
 # for k, v in dict.items():
 #     if v == 0:
 #         print(k)
-original_total = (n * (n + 1)) // 2
-print(original_total - sum(arr))
+# original_total = (n * (n + 1)) // 2
+# print(original_total - sum(arr))
