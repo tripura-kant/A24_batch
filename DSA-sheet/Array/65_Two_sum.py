@@ -21,7 +21,7 @@ class Solution:
             hash_map[nums[i]] = i
 
 
-nums = [2, 7, 11, 15]
+nums = [2, 7, 11, 15, 2]
 target = 17
 solution = Solution()
 res = solution.twoSum(nums, target)
