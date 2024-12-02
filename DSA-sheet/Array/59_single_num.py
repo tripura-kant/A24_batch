@@ -1,4 +1,4 @@
-nums = [4, 1, 2, 1, 2]
+nums = [4, 1, 2, 1, 2, 1]
 
 # freq = {}
 # for num in nums:
