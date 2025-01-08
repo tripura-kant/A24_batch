@@ -1,4 +1,4 @@
-# brute
+# brute force
 nums = [3, -2, 1, -5, 2, -4]
 
 pos = []
