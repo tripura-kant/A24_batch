@@ -2,4 +2,3 @@
 # string.
 
 def longest_word(s):
-    
