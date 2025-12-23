@@ -7,17 +7,18 @@ marks: Dict[str, int] = {
     "chemistry": 65,
     "sst": 25,
 }
-print(marks)
+# print(marks)
 
+print(marks.get("comdputer", 0))
 # marks.clear()
 # print(marks["historyy"])
 # print(marks.get("shjgwahdgajwhkdgawj", 0))
-marks.pop("history")
+# marks.pop("history")
 
-print(marks)
+# print(marks)
 
 dict1 = {"a": 1, "b": 2}
 dict2 = {"c": 1, "d": 4, "a": 100}
 
 dict1.update(dict2)
-print(dict1)
+# print(dict1)
