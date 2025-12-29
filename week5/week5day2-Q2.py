@@ -9,7 +9,10 @@ my_list = [4, 5, 6, 5, 4, 4, 7]
 result = {}
 
 for elem in my_list:
-        result[i] = result.get(i, 0) + 1
+        result[elem] = result.get(elem, 0) + 1
 
 print(result)    
 
+max_elem = max(result, key=result.get)
+print(max_elem)
+print(f"{max_elem} (Frequency: {result[max_elem]})")
