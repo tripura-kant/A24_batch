@@ -8,5 +8,8 @@
 my_list = [4, 5, 6, 5, 4, 4, 7]
 result = {}
 
-for i in my_list:
-    
+for elem in my_list:
+        result[i] = result.get(i, 0) + 1
+
+print(result)    
+
