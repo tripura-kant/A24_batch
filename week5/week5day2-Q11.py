@@ -14,8 +14,10 @@ k = 7
 res = {}
 
 for i in test_dict:
-    print(test_dict[i])
-    if test_dict[i] < int(k):
-        res[i] = res.get(i, 0) + test_dict[i]
-        print(f"KEY IS {i} Value is {test_dict[i]}")
+    if isinstance(test_dict[i], int):
+        if test_dict[i] < int(k):
+            res[i] = test_dict[i]
     else:
+        res[i] = test_dict[i]
+
+print(res)
