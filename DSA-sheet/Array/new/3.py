@@ -12,4 +12,5 @@ for i in range(0, n-1):
         is_sorted = False
         break
 
-print(is_sorted)    
+print(is_sorted)
+
