@@ -14,4 +14,7 @@ for i in range(0, n):
         max_count = max(max_count, count)
         count = 0
 
-print(max(max_count, count))        
+print(max(max_count, count))       
+
+
+# tripura kant
