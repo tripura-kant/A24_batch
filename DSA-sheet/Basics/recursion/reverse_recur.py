@@ -1,4 +1,4 @@
-# reverse
+# reverse array
 
 n = [1,2,5,6,9]
 def reverse_array(n):
