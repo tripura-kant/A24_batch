@@ -1,6 +1,6 @@
 # reverse array
 
-n = [1,2,5,6,9]
+n = [1,2,5,6,9,2]
 def reverse_array(n):
     left = 0
     right = len(n)-1
