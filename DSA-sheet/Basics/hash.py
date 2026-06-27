@@ -7,4 +7,4 @@ for num in m:
         if x == num:
             count += 1
 
-    print(count)        
+print(count)

@@ -6,6 +6,7 @@ n = len(nums)
 for i in range(len(nums)):
     if nums[i] != 0:
         temp.append(nums[i])
+print(temp)
 nz = len(temp)
 for i in range(nz):
     nums[i] = temp[i]
